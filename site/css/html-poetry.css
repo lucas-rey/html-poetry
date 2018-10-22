@@ -1,0 +1,73 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: linear-gradient(#fef8f6, #fce6df);
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h3,
+p {
+    margin: 0;
+}
+
+.header {
+    padding: 0px 0px 15px 5px;
+    text-align: center;
+}
+
+.level {
+    display: flex;
+    justify-content: center;
+}
+
+.one {
+    background-color: #fef8f6;
+}
+
+.two {
+    background-color: #fce6df;
+}
+
+.three {
+    background-color: #fad4c8;
+}
+
+.four {
+    background-color: #f8c2b0;
+}
+
+.five {
+    background-color: #f5af99;
+}
+
+.single {
+    height: 120px;
+    line-height: 120px;
+    width: 15%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.single:hover {
+    background-color: rgb(0, 0, 0, 0.75);
+}
+
+.single:hover p {
+    color: white;
+}
+
+.single p {
+    font-size: 30px;
+}
+
+.title {
+    height: 120px;
+    line-height: 120px;
+    width: 10%;
+    text-align: center;
+    border: 1px solid black;
+}
